@@ -21,3 +21,5 @@ _Credit goes to dirkjot via this [Stack Overflow answer](https://stackoverflow.c
 ```
 *.ipynb filter=strip-notebook-output
 ```
+
+_A sample .gitattributes file is provided within this folder as `.sample_gitattributes`_
