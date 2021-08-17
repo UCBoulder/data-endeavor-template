@@ -1,0 +1,15 @@
+
+@startuml
+agent jenkins
+database db
+artifact script1
+artifact script2
+node sftp
+cloud vendor
+jenkins ..> script1 :scheduled\nexecution(s)
+script1 <-left- db
+script1 -right-> sftp
+jenkins ..> script2
+script2 <-left- sftp
+script2 -right->vendor
+@enduml
